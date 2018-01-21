@@ -6,7 +6,6 @@ networks:
 
 services:
   misp-web:
-    build: .
     depends_on:
       - misp-db
     container_name: misp-web
